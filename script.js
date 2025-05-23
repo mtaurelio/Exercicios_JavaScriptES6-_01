@@ -30,20 +30,38 @@
 
 //--------------------------------------------------------------------------------------
 
-// ==============================================
-// EXERCÍCIO 2 - Somar Números Pares de um Array
-// ==============================================
-// Dado um array de números, crie uma função que
-// retorne a soma apenas dos números pares.
-// Exemplo: [2, 5, 8, 11, 14] deve retornar 24.
+// // ==============================================
+// // EXERCÍCIO 2 - Somar Números Pares de um Array
+// // ==============================================
+// // Dado um array de números, crie uma função que
+// // retorne a soma apenas dos números pares.
+// // Exemplo: [2, 5, 8, 11, 14] deve retornar 24.
 
-// ==============================================
-// EXERCÍCIO 3 - Validador de Senha Simples
-// ==============================================
-// Crie uma função que valide uma senha com os seguintes critérios:
-// - Mínimo de 8 caracteres
-// - Deve conter pelo menos 1 número
-// Retorne true se for válida, false caso contrário.
+// let numeros = [2, 5, 8, 11, 14];
+
+// function somaPar() {
+//   if (numeros % 2 === 0) {
+//     let somar = numeros + numeros;
+//   }
+//   return numeros;
+// }
+
+// // ==============================================
+// // EXERCÍCIO 3 - Validador de Senha Simples
+// // ==============================================
+// // Crie uma função que valide uma senha com os seguintes critérios:
+// // - Mínimo de 8 caracteres
+// // - Deve conter pelo menos 1 número
+// // Retorne true se for válida, false caso contrário.
+
+// let senha1 = "MinhaSenha";
+// function validarSenhar(senha) {
+//   if (senha.length >= 8) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
 // ==============================================
 // EXERCÍCIO 4 - Criar Botão e Mostrar Mensagem
